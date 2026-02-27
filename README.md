@@ -1,203 +1,238 @@
-# 云计算课程学习平台
+Ant Design Jeecg Vue（JeecgBoot 低代码平台）
+====
 
-## 项目简介
+当前最新版本： 3.4.3（发布日期：20221107）
 
-本项目是基于 **JeecgBoot 3.4.3** 开源低代码平台开发的云计算课程在线学习系统。采用前后端分离架构，为学生提供在线课程学习、资源浏览、学习记录管理等功能，为教师提供课程管理、资源发布、备课等功能。
-
-> **基础框架：** [JeecgBoot Vue2 3.4.3](https://github.com/jeecgboot/jeecg-boot)  
-> **开发重点：** Study 模块 - 云计算课程学习平台
-
----
-
-## 核心功能模块
-
-### Study 模块（云计算课程学习平台）
-
-#### 1. **学习中心** 
-- 课程列表展示（按课程分类）
-- 课程搜索与筛选
-- 课程详情查看
-- 课程资源浏览与学习
-- 学习进度记录
-
-#### 2. **备课中心**
-- 教师课程准备
-- 课程内容编辑
-- 课程资源上传与管理
-
-#### 3. **课程管理**
-- 课程信息维护（课程名称、分类、标签、出版社等）
-- 课程状态管理（启用/停用）
-- 课程学时设置
-- 课程类型：必修课/选修课
-
-#### 4. **课程分类管理**
-- 课程分类体系维护
-- 分类层级管理
-
-#### 5. **课程资源管理**
-- 课程资源上传（视频、文档、图片等）
-- 资源分类与排序
-- 资源关联课程
-
-#### 6. **学生学习记录**
-- 学习时长统计
-- 学习进度跟踪
-- 课程完成情况记录
-
----
-
-## 技术架构
-
-### 后端技术栈
-
-- **基础框架：** Spring Boot 2.6.6
-- **持久层：** MyBatis-Plus 3.5.1
-- **安全框架：** Apache Shiro 1.8.0 + JWT 3.11.0
-- **数据库：** MySQL 5.7+
-- **开发工具：** JeecgBoot 代码生成器
-
-### 前端技术栈
-
-- **框架：** Vue 2.6.10 + Vuex + Vue Router
-- **UI组件：** Ant Design Vue
-- **HTTP客户端：** Axios
-- **构建工具：** Webpack
-
----
-
-## 项目结构
+[![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE)
+[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://www.jeecg.com)
+[![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
+[![](https://img.shields.io/badge/version-3.4.3-brightgreen.svg)](https://github.com/zhangdaiscott/jeecg-boot)
+[![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/jeecg-boot.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/jeecg-boot)
+[![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/jeecg-boot.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/jeecg-boot)
 
 
-jeecgboot-vue2-3.4.3_all/
-├── jeecg-boot/                          # 后端项目
-│   └── jeecg-module-demo/
-│       └── src/main/java/org/jeecg/modules/demo/
-│           └── study/                   # 【核心】Study模块
-│               ├── controller/          # 控制器层
-│               ├── entity/             # 实体类
-│               ├── mapper/             # 数据访问层
-│               ├── service/            # 业务逻辑层
-│               └── vo/                 # 视图对象
-├── ant-design-vue-jeecg/               # 前端项目
-│   └── src/
-│       └── views/
-│           └── study/                  # 【核心】Study模块前端页面
-│               ├── learningCenter.vue           # 学习中心
-│               ├── PreparationCenter.vue        # 备课中心
-│               ├── CloudComputingCourseList.vue # 课程列表
-│               ├── CloudComputingCourseTypeList.vue     # 课程分类
-│               ├── CloudComputingCourseResourceList.vue # 课程资源
-│               └── CloudComputingStudentLearningRecordList.vue  # 学习记录
-└── jeecg-boot.sql                      # 数据库脚本
+
+Overview
+----
+
+基于 [Ant Design of Vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/) 实现的 Ant Design Pro  Vue 版
+Jeecg-boot 的前端UI框架，采用前后端分离方案，提供强大代码生成器的低代码平台。前端页面代码和后端功能代码一键生成，不需要写任何代码，保持jeecg一贯的强大！！
+ 
+> 强大的代码生成器让前后端代码一键生成! JeecgBoot引领低代码开发模式(OnlineCoding-> 代码生成-> 手工MERGE)， 帮助解决Java项目70%的重复工作，让开发更多关注业务。既能快速提高效率，节省成本，同时又不失灵活性
 
 
----
+## 项目介绍 
+ 重要说明：JeecgBoot前端提供两套解决方案，一套VUE2和一套VUE3版本，目前vue2版本最新代码只支持到jeecgboot `3.4.3版本`，一定注意。
 
-## 数据库表设计
 
-| 表名 | 说明 |
-|------|------|
-| cloud_computing_course | 课程表 |
-| cloud_computing_course_type | 课程分类表 |
-| cloud_computing_course_resource | 课程资源表 |
-| cloud_computing_student_learning_record | 学习记录表 |
-| cloud_computing_class | 课程班级关联表 |
+## Vue2与Vue3版本区别
+> - VUE3版本彻底抛弃IE兼容，不兼容IE和低版本浏览器，只适配高版本谷歌和Edge
+ （政府、事业类单位项目需要谨慎选择——国产化迁移是一个漫长的过程，万一过程中要求IE兼容，这个不可逆）
+> - 所以如果对浏览器有要求的项目，请选择VUE2版本。
+> - VUE3版是全新的技术栈，紧跟主流（前端重写），各个功能都做了优化，拥有更好的体验效果
 
----
 
-## 快速开始
 
-### 环境要求
 
-- JDK 8+（小于 JDK 17）
-- Maven 3.6+
-- Node.js 12+
-- MySQL 5.7+
-- Redis
+##  项目源码
 
-### 后端启动
+| 仓库  | 前端源码Vue2版 | 后端源码                                                                     |
+|-|-|--------------------------------------------------------------------------|
+| Github   | [ant-design-vue-jeecg](https://github.com/jeecgboot/ant-design-vue-jeecg) | [jeecg-boot (v3.4.3)](https://gitee.com/jeecg/jeecg-boot/tree/v3.4.3last)      |
+| 码云  | [ant-design-vue-jeecg](https://gitee.com/jeecg/ant-design-vue-jeecg)  | [jeecg-boot (v3.4.3)](https://github.com/jeecgboot/jeecg-boot/tree/v3.4.3) |
+> 目前vue2版本最新代码只支持到jeecgboot 3.4.3版本，一定注意。
 
-1. 导入数据库脚本 jeecg-boot.sql
-2. 修改配置文件 jeecg-boot/jeecg-module-system/jeecg-system-start/src/main/resources/application-dev.yml
-3. 启动 Redis 服务
-4. 运行主类：org.jeecg.JeecgSystemApplication
-5. 访问后端接口文档：http://localhost:8080/jeecg-boot/doc.html
+## 项目说明
 
-### 前端启动
+| 项目名                | 说明                     | 
+|--------------------|------------------------|
+| `jeecg-boot`    | JAVA后台（支持微服务）        | 
+| `ant-design-vue-jeecg`  |Vue2版前端代码   |   
 
-进入前端目录并执行：
-- npm install
-- npm run serve
-- 访问地址：http://localhost:3000
-
-### 默认账号
-
-- **管理员账号：** admin / 123456
-- **教师账号：** teacher01 / 123456
-- **学生账号：** student01 / 123456
-
----
-
-## 基于 JeecgBoot 开源框架
-
-本项目基于 **JeecgBoot 3.4.3** 低代码平台开发，充分利用其强大的代码生成器和基础功能模块，在此基础上进行业务定制开发。
-
-### JeecgBoot 主要特性
-
-- ✅ 强大的代码生成器（一键生成前后端代码）
-- ✅ 完善的权限管理（支持按钮权限、数据权限）
-- ✅ 用户、角色、菜单、部门等基础功能
-- ✅ Excel导入导出
-- ✅ 在线接口文档（Swagger）
-- ✅ 系统监控与日志
-- ✅ 数据字典管理
-- ✅ 定时任务
-
----
-
-## 开发说明
-
-### Study 模块开发流程
-
-1. **数据库设计** - 设计云计算课程相关表结构
-2. **使用代码生成器** - 通过 JeecgBoot 代码生成器生成基础 CRUD 代码
-3. **业务定制开发** - 在生成的代码基础上进行业务逻辑定制
-4. **前端页面优化** - 基于生成的Vue页面进行UI优化
-
----
-
-## 项目特点
-
-1. **基于成熟框架** - 基于 JeecgBoot 开源框架，稳定可靠
-2. **快速开发** - 利用代码生成器，大幅提升开发效率
-3. **前后端分离** - 前后端完全分离，易于维护和扩展
-4. **权限控制** - 基于 Shiro + JWT 的完善权限体系
-5. **响应式设计** - 支持PC端和移动端访问
-6. **模块化开发** - Study 模块独立清晰，易于二次开发
-
----
 
 ## 技术支持
 
-### JeecgBoot 官方文档
-- 官网：http://www.jeecg.com
-- 开发文档：http://doc.jeecg.com
-- 在线演示：http://boot.jeecg.com
-- Github：https://github.com/jeecgboot/jeecg-boot
 
----
+本项目关闭issue，使用中遇到问题或者BUG可以在 [JeecgBoot主项目上提Issues](https://github.com/jeecgboot/jeecg-boot/issues/new)
 
-## 开发计划
+官方支持： http://jeecg.com/doc/help
 
-- [x] 课程管理模块
-- [x] 课程分类管理
-- [x] 课程资源管理
-- [x] 学生学习记录
-- [x] 学习中心（学生端）
-- [x] 备课中心（教师端）
-- [ ] 在线考试功能
-- [ ] 作业提交与批改
-- [ ] 讨论区功能
-- [ ] 学习统计与分析
-- [ ] 移动端APP
+技术文档： http://doc.jeecg.com
+
+
+
+
+## 前端技术栈
+ 
+  > 此处是Vue2版的技术栈介绍
+
+- 基础框架：[ant-design-vue](https://github.com/vueComponent/ant-design-vue) - Ant Design Of Vue 实现
+- JavaScript框架：Vue
+- node
+- yarn
+- @vue/cli 3.2.1
+- [vue-cropper](https://github.com/xyxiao001/vue-cropper) - 头像裁剪组件
+- [@antv/g2](https://antv.alipay.com/zh-cn/index.html) - Alipay AntV 数据可视化图表
+- [Viser-vue](https://viserjs.github.io/docs.html#/viser/guide/installation)  - antv/g2 封装实现
+- [Vue 2.6.10](https://cn.vuejs.org/),[Vuex](https://vuex.vuejs.org/zh/),[Vue Router](https://router.vuejs.org/zh/)
+- [Axios](https://github.com/axios/axios)
+- [webpack](https://www.webpackjs.com/),[yarn](https://yarnpkg.com/zh-Hans/)
+- eslint，[@vue/cli 3.2.1](https://cli.vuejs.org/zh/guide)
+- vue-print-nb-jeecg - 打印
+
+
+
+
+
+## 项目下载和运行
+
+
+- 拉取项目代码
+```bash
+git clone https://github.com/zhangdaiscott/jeecg-boot.git
+cd  jeecg-boot/ant-design-vue-jeecg
+```
+
+- 安装依赖
+```
+yarn install
+```
+
+- 开发模式运行
+```
+yarn run serve
+```
+
+- 编译项目
+```
+yarn run build
+```
+
+- Lints and fixes files
+```
+yarn run lint
+```
+
+Docker镜像启动前端（单体模式）
+----
+
+ ``` 
+# 1.配置host
+
+    127.0.0.1   jeecg-boot-system
+
+# 2.修改前端项目的后台域名
+    .env.development
+    域名改成： http://jeecg-boot-system:8080/jeecg-boot
+   
+# 3.进入项目根目录，执行打包命令
+  yarn run build
+
+# 4.构建镜像
+  docker build -t jeecgboot-ui2 .
+
+# 5.启动镜像
+  docker run --name jeecgboot-ui-vue2 -p 80:80 -d jeecgboot-ui2
+
+# 6.访问前台项目
+  http://localhost
+``` 
+
+
+
+其他说明
+----
+
+- 项目使用的 [vue-cli3](https://cli.vuejs.org/guide/), 请更新您的 cli
+
+- 关闭 Eslint (不推荐) 移除 `package.json` 中 `eslintConfig` 整个节点代码
+
+- 修改 Ant Design 配色，在文件 `vue.config.js` 中，其他 less 变量覆盖参考 [ant design](https://ant.design/docs/react/customize-theme-cn) 官方说明
+```ecmascript 6
+  css: {
+    loaderOptions: {
+      less: {
+        modifyVars: {
+          /* less 变量覆盖，用于自定义 ant design 主题 */
+
+          'primary-color': '#F5222D',
+          'link-color': '#F5222D',
+          'border-radius-base': '4px',
+        },
+        javascriptEnabled: true,
+      }
+    }
+  }
+```
+
+
+
+附属文档
+----
+- [Ant Design Vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn)
+
+- [报表 viser-vue](https://viserjs.github.io/demo.html#/viser/bar/basic-bar)
+
+- [Vue](https://cn.vuejs.org/v2/guide)
+
+- [路由/菜单说明](https://github.com/zhangdaiscott/jeecg-boot/tree/master/ant-design-vue-jeecg/src/router/README.md)
+
+- [ANTD 默认配置项](https://github.com/zhangdaiscott/jeecg-boot/tree/master/ant-design-vue-jeecg/src/defaultSettings.js)
+
+- 其他待补充...
+
+
+备注
+----
+
+> @vue/cli 升级后，eslint 规则更新了。由于影响到全部 .vue 文件，需要逐个验证。既暂时关闭部分原本不验证的规则，后期维护时，在逐步修正这些 rules
+
+
+
+系统效果
+----
+##### 大屏模板
+![输入图片说明](https://static.oschina.net/uploads/img/201912/25133248_Ag1C.jpg "在这里输入图片标题")
+
+![输入图片说明](https://static.oschina.net/uploads/img/201912/25133301_k9Kc.jpg "在这里输入图片标题")
+
+##### PC端
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14155402_AmlV.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160657_cHwb.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160813_KmXS.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160935_Nibs.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14161004_bxQ4.png "在这里输入图片标题")
+
+
+##### 在线接口文档
+![输入图片说明](https://static.oschina.net/uploads/img/201908/27095258_M2Xq.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160957_hN3X.png "在这里输入图片标题")
+
+
+##### 报表
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160828_pkFr.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160834_Lo23.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160842_QK7B.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160849_GBm5.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160858_6RAM.png "在这里输入图片标题")
+
+##### 流程
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160623_8fwk.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160917_9Ftz.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201904/14160633_u59G.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201907/05165142_yyQ7.png "在这里输入图片标题")
+
+
+##### 手机端
+![](https://oscimg.oschina.net/oscnet/da543c5d0d57baab0cecaa4670c8b68c521.jpg)
+![](https://oscimg.oschina.net/oscnet/fda4bd82cab9d682de1c1fbf2060bf14fa6.jpg)
+
+##### PAD端
+![](https://oscimg.oschina.net/oscnet/e90fef970a8c33790ab03ffd6c4c7cec225.jpg)
+![](https://oscimg.oschina.net/oscnet/d78218803a9e856a0aa82b45efc49849a0c.jpg)
+![](https://oscimg.oschina.net/oscnet/0404054d9a12647ef6f82cf9cfb80a5ac02.jpg)
+![](https://oscimg.oschina.net/oscnet/59c23b230f52384e588ee16309b44fa20de.jpg)
+
+
+
+
