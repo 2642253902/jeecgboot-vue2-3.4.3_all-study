@@ -1,0 +1,925 @@
+2025-11-24 00:40:31.004 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:40:31.197 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:40:31.198 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:40:31.198 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:40:31.198 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:40:32.994 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:42:23.247 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:42:23.252 [http-nio-8081-exec-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 00:42:23.255 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 00:42:23.256 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 00:42:23.258 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 00:42:23.260 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 00:42:23.262 [http-nio-8081-exec-2] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 00:42:23.263 [http-nio-8081-exec-2] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:42:24.539 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:42:24.541 [http-nio-8081-exec-6] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 00:42:24.541 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:42:24.542 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:42:24.542 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 00:42:24.542 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 00:42:24.542 [http-nio-8081-exec-6] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 00:42:24.543 [http-nio-8081-exec-6] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:42:40.698 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:40.786 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:42:40.786 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:40.786 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:42:40.787 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:43.300 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:43.333 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:42:43.333 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:42:43.333 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:43.334 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:50.652 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:50.678 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:42:50.678 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:50.683 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:42:50.684 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:42:53.136 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:42:53.138 [http-nio-8081-exec-10] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 00:42:53.138 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 00:42:53.138 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 00:42:53.138 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 00:42:53.139 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 00:42:53.139 [http-nio-8081-exec-10] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 00:42:53.139 [http-nio-8081-exec-10] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:42:55.197 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:42:55.197 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:03.438 [http-nio-8081-exec-10] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:03.439 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:03.439 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:03.439 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 00:43:03.439 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 00:43:03.439 [http-nio-8081-exec-10] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:03.440 [http-nio-8081-exec-10] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:03.441 [http-nio-8081-exec-7] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:03.441 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:03.441 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:03.442 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:03.442 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:03.442 [http-nio-8081-exec-7] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:03.442 [http-nio-8081-exec-7] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:05.483 [http-nio-8081-exec-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:05.484 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:05.484 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:05.484 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:05.484 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:05.485 [http-nio-8081-exec-3] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:05.485 [http-nio-8081-exec-3] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:05.486 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:05.487 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:id, rule:=, value:1992302749781237762
+2025-11-24 00:43:05.487 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:05.879 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_id, rule:=, value:1992302749781237762
+2025-11-24 00:43:05.880 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:19.591 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:43:19.591 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:26.281 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:id, rule:=, value:1992302749781237762
+2025-11-24 00:43:26.281 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:26.281 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:26.283 [http-nio-8081-exec-4] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:26.283 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:26.283 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:26.283 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:26.284 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:26.284 [http-nio-8081-exec-4] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:26.284 [http-nio-8081-exec-4] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:26.694 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_id, rule:=, value:1992302749781237762
+2025-11-24 00:43:26.697 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:29.588 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:29.588 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:43:30.370 [http-nio-8081-exec-4] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:30.371 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:30.371 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:30.371 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:30.371 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:30.372 [http-nio-8081-exec-4] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:30.372 [http-nio-8081-exec-4] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:30.374 [http-nio-8081-exec-6] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:30.375 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:30.375 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:30.375 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 00:43:30.375 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 00:43:30.376 [http-nio-8081-exec-6] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:30.376 [http-nio-8081-exec-6] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:34.594 [http-nio-8081-exec-7] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:34.594 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:34.595 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:34.595 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 00:43:34.595 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 00:43:34.595 [http-nio-8081-exec-7] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:34.596 [http-nio-8081-exec-7] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:34.596 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:43:35.305 [http-nio-8081-exec-8] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:35.305 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:35.305 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:35.305 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 00:43:35.306 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 00:43:35.306 [http-nio-8081-exec-8] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:35.306 [http-nio-8081-exec-8] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:35.309 [http-nio-8081-exec-9] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:35.309 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:35.309 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:35.310 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:35.310 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:35.310 [http-nio-8081-exec-9] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:35.310 [http-nio-8081-exec-9] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:37.553 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:43:37.554 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:39.273 [http-nio-8081-exec-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:39.274 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:39.274 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:39.274 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:39.274 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:39.274 [http-nio-8081-exec-3] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:39.274 [http-nio-8081-exec-3] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:39.276 [http-nio-8081-exec-8] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:39.276 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:39.276 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:39.277 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 00:43:39.277 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 00:43:39.277 [http-nio-8081-exec-8] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:39.277 [http-nio-8081-exec-8] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:42.119 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:42.229 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:43:42.229 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:43:42.229 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:42.229 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:52.164 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:43:52.164 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:52.882 [http-nio-8081-exec-1] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:52.883 [http-nio-8081-exec-6] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:52.883 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:52.883 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:52.884 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:52.884 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:52.884 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 00:43:52.884 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:52.884 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 00:43:52.884 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:52.884 [http-nio-8081-exec-6] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:52.884 [http-nio-8081-exec-1] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 00:43:52.885 [http-nio-8081-exec-1] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:52.885 [http-nio-8081-exec-6] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:56.680 [http-nio-8081-exec-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 00:43:56.680 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 00:43:56.680 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 00:43:56.681 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 00:43:56.681 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 00:43:56.681 [http-nio-8081-exec-3] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 00:43:56.682 [http-nio-8081-exec-3] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:43:56.687 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:56.688 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:id, rule:=, value:1992302749781237762
+2025-11-24 00:43:56.688 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:57.074 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_id, rule:=, value:1992302749781237762
+2025-11-24 00:43:57.074 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:43:57.700 [http-nio-8081-exec-7] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 00:43:57.701 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 00:43:57.701 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 00:43:57.701 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 00:43:57.701 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 00:43:57.701 [http-nio-8081-exec-7] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 00:43:57.701 [http-nio-8081-exec-7] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:44:07.260 [http-nio-8081-exec-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 00:44:07.260 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 00:44:07.260 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 00:44:07.261 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 00:44:07.261 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 00:44:07.261 [http-nio-8081-exec-2] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 00:44:07.262 [http-nio-8081-exec-2] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 00:44:12.869 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:44:13.014 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:44:13.014 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:44:13.015 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:44:13.015 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:44:21.553 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:44:21.630 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:44:21.630 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:44:21.631 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:44:21.631 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:47:58.863 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-UHQ4FTVA1763897235676 paused.
+2025-11-24 00:47:58.889 [SpringApplicationShutdownHook] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2025-11-24 00:47:59.118 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2025-11-24 00:47:59.118 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_LAPTOP-UHQ4FTVA1763897235676 shutting down.
+2025-11-24 00:47:59.118 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_LAPTOP-UHQ4FTVA1763897235676 paused.
+2025-11-24 00:47:59.119 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_LAPTOP-UHQ4FTVA1763897235676 shutdown complete.
+2025-11-24 00:47:59.133 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:217 - dynamic-datasource start closing ....
+2025-11-24 00:47:59.135 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2029 - {dataSource-1} closing ...
+2025-11-24 00:47:59.137 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2101 - {dataSource-1} closed
+2025-11-24 00:47:59.137 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:221 - dynamic-datasource all closed success,bye
+2025-11-24 00:48:18.258 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.3.Final
+2025-11-24 00:48:18.289 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 17.0.11 on LAPTOP-UHQ4FTVA with PID 6496 (D:\Desktop\jeecgboot-vue2-3.4.3_all\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by 26422 in D:\Desktop\jeecgboot-vue2-3.4.3_all\jeecg-boot)
+2025-11-24 00:48:18.290 [main] INFO  org.jeecg.JeecgSystemApplication:646 - The following 1 profile is active: "dev"
+2025-11-24 00:48:21.371 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-11-24 00:48:21.375 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-24 00:48:21.484 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 93 ms. Found 0 Redis repository interfaces.
+2025-11-24 00:48:21.606 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2025-11-24 00:48:21.607 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2025-11-24 00:48:21.607 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2025-11-24 00:48:21.678 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2025-11-24 00:48:21.679 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2025-11-24 00:48:21.679 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2025-11-24 00:48:21.679 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2025-11-24 00:48:21.679 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2025-11-24 00:48:21.679 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2025-11-24 00:48:21.679 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2025-11-24 00:48:21.680 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2025-11-24 00:48:21.680 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2025-11-24 00:48:21.680 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2025-11-24 00:48:22.022 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.027 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.028 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.028 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.029 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.029 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.030 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.030 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.031 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.032 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.032 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.033 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.033 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.034 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.035 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.035 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#1468e880' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.037 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.051 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.070 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.072 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.075 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.077 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.079 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.080 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.080 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.098 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.101 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$565/0x00000230285d52f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.255 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.357 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$85adf73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.670 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.676 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$12ad084b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.682 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.723 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.780 [main] INFO  org.jeecg.config.shiro.ShiroConfig:227 - ===============(1)创建缓存管理器RedisCacheManager
+2025-11-24 00:48:22.781 [main] INFO  org.jeecg.config.shiro.ShiroConfig:245 - ===============(2)创建RedisManager,连接Redis..
+2025-11-24 00:48:22.784 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.790 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.808 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.826 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$bc37752a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:22.829 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-24 00:48:23.122 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2025-11-24 00:48:23.132 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-24 00:48:23.132 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2025-11-24 00:48:23.132 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-11-24 00:48:23.242 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2025-11-24 00:48:23.243 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 4908 ms
+2025-11-24 00:48:23.415 [main] INFO  o.j.m.jmreport.config.init.JimuReportConfiguration:99 -  Init JimuReport Config [ Token Interceptor & Resource Locations ] 
+2025-11-24 00:48:23.876 [main] INFO  com.alibaba.druid.pool.DruidDataSource:994 - {dataSource-1,master} inited
+2025-11-24 00:48:23.877 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2025-11-24 00:48:23.878 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-11-24 00:48:25.149 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:56 -  --- redis config init --- 
+2025-11-24 00:48:26.197 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2025-11-24 00:48:26.200 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2025-11-24 00:48:26.209 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-11-24 00:48:26.209 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2025-11-24 00:48:26.211 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2025-11-24 00:48:26.213 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2025-11-24 00:48:26.214 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'LAPTOP-UHQ4FTVA1763916506199'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2025-11-24 00:48:26.214 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2025-11-24 00:48:26.214 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2025-11-24 00:48:26.214 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@798ac54d
+2025-11-24 00:48:27.804 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:42 -  Init JimuReport Config [ 线程池 ] 
+2025-11-24 00:48:29.006 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-11-24 00:48:29.114 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:46 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2025-11-24 00:48:30.162 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2025-11-24 00:48:30.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path '/jeecg-boot'
+2025-11-24 00:48:31.300 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2025-11-24 00:48:31.313 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 13.628 seconds (JVM running for 29.613)
+2025-11-24 00:48:31.322 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:30 -  Init Code Generate Template [ 检测如果是JAR启动环境，Copy模板到config目录 ] 
+2025-11-24 00:48:31.361 [main] INFO  org.jeecg.JeecgSystemApplication:35 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8081/jeecg-boot/
+	External: 	http://26.193.166.167:8081/jeecg-boot/
+	Swagger文档: 	http://26.193.166.167:8081/jeecg-boot/doc.html
+----------------------------------------------------------
+2025-11-24 00:48:32.304 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2025-11-24 00:48:32.480 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2025-11-24 00:48:32.480 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "LAPTOP-UHQ4FTVA1763897235676"'s failed in-progress jobs.
+2025-11-24 00:48:32.484 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_LAPTOP-UHQ4FTVA1763916506199 started.
+2025-11-24 00:49:25.760 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-24 00:49:25.760 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2025-11-24 00:49:25.764 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 4 ms
+2025-11-24 00:49:25.898 [http-nio-8081-exec-2] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = b3e1e6ea32a77d5d7ac3e19d18e853b7，checkCode = UxYr
+2025-11-24 00:49:26.657 [http-nio-8081-exec-4] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = 6a90a284c58d558843da0ecabf52493b，checkCode = mJPp
+2025-11-24 00:49:27.399 [http-nio-8081-exec-6] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = f76e28b8a08cb0d879afcdd14ba3a00b，checkCode = xlm6
+2025-11-24 00:49:35.696 [http-nio-8081-exec-8] WARN  o.jeecg.modules.system.controller.LoginController:99 - 验证码错误，key= 1763916567378 , Ui checkCode= x1m6, Redis checkCode = null
+2025-11-24 00:49:35.726 [http-nio-8081-exec-10] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = 1cb6626b4decabc03bb1ff2c720aaf0d，checkCode = MTwk
+2025-11-24 00:49:40.541 [http-nio-8081-exec-1] WARN  c.b.m.core.toolkit.support.ReflectLambdaMeta:26 - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @6cf0e0ba
+2025-11-24 00:49:42.799 [http-nio-8081-exec-4] INFO  org.apache.tomcat.util.http.parser.Cookie:173 - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1762660542,1762744370,1762744590,1763825496;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-11-24 00:49:42.850 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 00:58:02.595 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2025-11-24 00:58:08.693 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 00:58:26.618 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:58:26.618 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 00:59:24.967 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:59:25.035 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 00:59:25.036 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:59:25.037 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 00:59:25.038 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:59:29.578 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 00:59:29.578 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 01:00:08.115 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 01:00:08.116 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 01:00:08.550 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 01:00:08.551 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 01:00:08.929 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 01:00:16.226 [http-nio-8081-exec-9] ERROR o.jeecg.modules.system.controller.CommonController:253 - 预览文件失败java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2025-11-24 01:00:16.235 [http-nio-8081-exec-9] ERROR o.jeecg.modules.system.controller.CommonController:268 - java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:353)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:783)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:252)
+	at org.apache.catalina.connector.CoyoteOutputStream.close(CoyoteOutputStream.java:157)
+	at org.jeecg.modules.system.controller.CommonController.view(CommonController.java:266)
+	at org.jeecg.modules.system.controller.CommonController$$FastClassBySpringCGLIB$$669ac3eb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at org.jeecg.common.aspect.DictAspect.doAround(DictAspect.java:62)
+	at jdk.internal.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.jeecg.modules.system.controller.CommonController$$EnhancerBySpringCGLIB$$19de9540.view(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.jeecg.modules.online.low.aspect.a.doFilterInternal(LowAppFilter.java:50)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:458)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:373)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:370)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1384)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:586)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:530)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:547)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:73)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:194)
+	at org.apache.coyote.Response.doWrite(Response.java:615)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:340)
+	... 112 common frames omitted
+2025-11-24 17:52:37.074 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2025-11-24 17:52:42.022 [http-nio-8081-exec-3] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：31ms
+2025-11-24 17:52:42.399 [http-nio-8081-exec-8] INFO  o.jeecg.modules.system.controller.LoginController:193 -  用户名:  管理员,退出成功！ 
+2025-11-24 17:52:42.692 [http-nio-8081-exec-10] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = 7a00cd84187db5001e2058b11671b093，checkCode = sy9V
+2025-11-24 17:52:48.391 [http-nio-8081-exec-2] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = be30f410c8fb67735512cfc5e25b9d28，checkCode = sC0v
+2025-11-24 17:52:53.517 [http-nio-8081-exec-8] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：2ms
+2025-11-24 17:52:55.361 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 18:07:11.321 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:07:11.369 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:07:11.370 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:07:11.370 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:07:11.371 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:11:19.220 [http-nio-8081-exec-10] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /sys/user/list ; 请求类型 >> GET . 
+2025-11-24 18:11:19.351 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:11:19.391 [http-nio-8081-exec-10] INFO  o.j.modules.system.controller.SysUserController:158 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@40a0da73
+2025-11-24 18:11:20.352 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:11:22.677 [http-nio-8081-exec-1] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /sys/user/list ; 请求类型 >> GET . 
+2025-11-24 18:11:22.699 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:11:22.715 [http-nio-8081-exec-1] INFO  o.j.modules.system.controller.SysUserController:158 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@325ff1f4
+2025-11-24 18:11:27.088 [http-nio-8081-exec-10] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/undefined
+2025-11-24 18:11:27.099 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:11:27.106 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-11-24 18:11:27.115 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-11-24 18:11:27.128 [http-nio-8081-exec-10] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : undefined
+2025-11-24 18:11:27.222 [http-nio-8081-exec-4] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:11:27.226 [http-nio-8081-exec-4] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:11:27.232 [http-nio-8081-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:11:27.235 [http-nio-8081-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:11:30.225 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:11:30.227 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:11:35.238 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:11:35.239 [http-nio-8081-exec-1] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/undefined
+2025-11-24 18:11:35.240 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-11-24 18:11:35.240 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-11-24 18:11:35.241 [http-nio-8081-exec-1] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : undefined
+2025-11-24 18:11:35.346 [http-nio-8081-exec-7] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:11:35.349 [http-nio-8081-exec-7] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:11:35.356 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:11:35.358 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:12:08.305 [http-nio-8081-exec-10] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:12:08.973 [http-nio-8081-exec-8] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:12:15.786 [http-nio-8081-exec-1] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:12:43.409 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:12:48.028 [http-nio-8081-exec-10] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:12:50.109 [http-nio-8081-exec-2] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=work_no, fieldVal=student01, dataId=null)
+2025-11-24 18:12:50.446 [http-nio-8081-exec-1] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=work_no, fieldVal=student01, dataId=null)
+2025-11-24 18:12:57.372 [http-nio-8081-exec-4] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793826, dataId=null)
+2025-11-24 18:12:59.259 [http-nio-8081-exec-7] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793826, dataId=null)
+2025-11-24 18:13:05.821 [http-nio-8081-exec-2] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=work_no, fieldVal=student01, dataId=null)
+2025-11-24 18:13:05.825 [http-nio-8081-exec-1] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793826, dataId=null)
+2025-11-24 18:13:05.826 [http-nio-8081-exec-8] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:13:06.209 [http-nio-8081-exec-7] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /sys/user/list ; 请求类型 >> GET . 
+2025-11-24 18:13:06.238 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:13:06.253 [http-nio-8081-exec-7] INFO  o.j.modules.system.controller.SysUserController:158 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@35f20f4
+2025-11-24 18:13:10.643 [http-nio-8081-exec-1] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793821, dataId=1992899266565083138)
+2025-11-24 18:13:11.464 [http-nio-8081-exec-4] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793821, dataId=1992899266565083138)
+2025-11-24 18:13:11.531 [http-nio-8081-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793821, dataId=1992899266565083138)
+2025-11-24 18:13:11.537 [http-nio-8081-exec-10] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=1992899266565083138)
+2025-11-24 18:13:11.537 [http-nio-8081-exec-6] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=work_no, fieldVal=student01, dataId=1992899266565083138)
+2025-11-24 18:13:11.751 [http-nio-8081-exec-9] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-11-24 18:13:11.760 [http-nio-8081-exec-9] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /sys/user/list ; 请求类型 >> GET . 
+2025-11-24 18:13:11.784 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:13:11.799 [http-nio-8081-exec-9] INFO  o.j.modules.system.controller.SysUserController:158 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@542c84dc
+2025-11-24 18:13:18.455 [http-nio-8081-exec-7] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:13:18.458 [http-nio-8081-exec-7] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:13:18.466 [http-nio-8081-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=student01, dataId=null)
+2025-11-24 18:13:18.469 [http-nio-8081-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:13:30.778 [http-nio-8081-exec-10] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=t, dataId=null)
+2025-11-24 18:13:31.250 [http-nio-8081-exec-8] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=te, dataId=null)
+2025-11-24 18:13:32.182 [http-nio-8081-exec-9] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=tea, dataId=null)
+2025-11-24 18:13:32.434 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teac, dataId=null)
+2025-11-24 18:13:32.550 [http-nio-8081-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teach, dataId=null)
+2025-11-24 18:13:33.052 [http-nio-8081-exec-10] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teache, dataId=null)
+2025-11-24 18:13:33.208 [http-nio-8081-exec-8] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teacher, dataId=null)
+2025-11-24 18:13:34.829 [http-nio-8081-exec-9] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teacher0, dataId=null)
+2025-11-24 18:13:34.983 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teacher01, dataId=null)
+2025-11-24 18:13:36.471 [http-nio-8081-exec-3] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teacher01, dataId=null)
+2025-11-24 18:13:37.523 [http-nio-8081-exec-10] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=work_no, fieldVal=teacher01, dataId=null)
+2025-11-24 18:13:38.171 [http-nio-8081-exec-8] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=work_no, fieldVal=teacher01, dataId=null)
+2025-11-24 18:13:44.837 [http-nio-8081-exec-9] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793822, dataId=null)
+2025-11-24 18:13:46.013 [http-nio-8081-exec-5] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793822, dataId=null)
+2025-11-24 18:14:02.775 [http-nio-8081-exec-2] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=teacher01, dataId=null)
+2025-11-24 18:14:02.775 [http-nio-8081-exec-10] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=work_no, fieldVal=teacher01, dataId=null)
+2025-11-24 18:14:02.776 [http-nio-8081-exec-8] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=phone, fieldVal=18897793822, dataId=null)
+2025-11-24 18:14:02.947 [http-nio-8081-exec-5] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /sys/user/list ; 请求类型 >> GET . 
+2025-11-24 18:14:02.960 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:14:02.974 [http-nio-8081-exec-5] INFO  o.j.modules.system.controller.SysUserController:158 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@7b974530
+2025-11-24 18:14:14.166 [http-nio-8081-exec-2] INFO  o.jeecg.modules.system.controller.LoginController:193 -  用户名:  管理员,退出成功！ 
+2025-11-24 18:14:14.519 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2025-11-24 18:14:20.374 [http-nio-8081-exec-9] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = aa14472df9406f89547cceee186a7900，checkCode = t1sL
+2025-11-24 18:14:51.758 [http-nio-8081-exec-3] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = 5f309ab940514b86d5a4920c962d3ae8，checkCode = XSxw
+2025-11-24 18:15:08.557 [http-nio-8081-exec-8] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-11-24 18:15:13.510 [http-nio-8081-exec-5] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-11-24 18:15:16.277 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 18:15:22.024 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:2
+2025-11-24 18:15:28.296 [http-nio-8081-exec-8] INFO  o.jeecg.modules.system.controller.LoginController:193 -  用户名:  teacher01,退出成功！ 
+2025-11-24 18:15:28.625 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:1
+2025-11-24 18:15:33.709 [http-nio-8081-exec-9] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = 5d8cc5b1e8d0edf6cb534481c2d6c409，checkCode = WP7b
+2025-11-24 18:15:51.029 [http-nio-8081-exec-5] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-11-24 18:15:52.283 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:2
+2025-11-24 18:16:00.998 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:16:03.872 [http-nio-8081-exec-1] INFO  org.jeecg.common.aspect.PermissionDataAspect:71 - 拦截请求 >> /sys/user/list ; 请求类型 >> GET . 
+2025-11-24 18:16:03.886 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:16:03.898 [http-nio-8081-exec-1] INFO  o.j.modules.system.controller.SysUserController:158 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@7972b71d
+2025-11-24 18:16:04.875 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:16:04.886 [http-nio-8081-exec-10] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/undefined
+2025-11-24 18:16:04.887 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-11-24 18:16:04.887 [http-nio-8081-exec-10] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-11-24 18:16:04.888 [http-nio-8081-exec-10] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : undefined
+2025-11-24 18:16:05.008 [http-nio-8081-exec-9] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=admin, dataId=null)
+2025-11-24 18:16:05.010 [http-nio-8081-exec-9] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:16:05.018 [http-nio-8081-exec-1] INFO  o.j.m.system.controller.DuplicateCheckController:50 - ----duplicate check------：DuplicateCheckVo(tableName=sys_user, fieldName=username, fieldVal=admin, dataId=null)
+2025-11-24 18:16:05.021 [http-nio-8081-exec-1] INFO  o.j.m.system.controller.DuplicateCheckController:83 - 该值不可用，系统中已存在！
+2025-11-24 18:16:21.452 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:1
+2025-11-24 18:16:22.904 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:2
+2025-11-24 18:16:27.972 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:27.989 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:16:27.990 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:16:27.990 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:27.990 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:31.129 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:content_id, rule:=, value:1992303842724585474
+2025-11-24 18:16:31.129 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_id, rule:=, value:1992302749781237762
+2025-11-24 18:16:31.129 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:35.131 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:35.160 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:16:35.160 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:16:35.161 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:35.161 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:39.986 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:39.999 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:16:39.999 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:16:40.000 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:40.000 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:49.837 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:content_id, rule:=, value:1992303842724585474
+2025-11-24 18:16:49.838 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_id, rule:=, value:1992302749781237762
+2025-11-24 18:16:49.838 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:16:58.681 [http-nio-8081-exec-3] INFO  o.jeecg.modules.system.controller.LoginController:193 -  用户名:  管理员,退出成功！ 
+2025-11-24 18:16:59.007 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:1
+2025-11-24 18:17:02.579 [http-nio-8081-exec-10] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = c2ea4fa9f48613e1ffd0f6a25ca41701，checkCode = 2YXy
+2025-11-24 18:17:08.632 [http-nio-8081-exec-4] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = 834cc265deb5e9673bb05495389d9766，checkCode = C2Je
+2025-11-24 18:17:13.715 [http-nio-8081-exec-5] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-11-24 18:17:16.059 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:2
+2025-11-24 18:17:18.294 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:17:18.306 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:17:19.404 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:17:20.429 [http-nio-8081-exec-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 18:17:20.429 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 18:17:20.430 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 18:17:20.430 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 18:17:20.430 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 18:17:20.431 [http-nio-8081-exec-3] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 18:17:20.432 [http-nio-8081-exec-3] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 18:17:20.434 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:17:21.538 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:17:21.538 [http-nio-8081-exec-7] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 18:17:21.539 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 18:17:21.539 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 18:17:21.539 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 18:17:21.539 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 18:17:21.539 [http-nio-8081-exec-7] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 18:17:21.540 [http-nio-8081-exec-7] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 18:17:25.496 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:17:25.497 [http-nio-8081-exec-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 18:17:25.497 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 18:17:25.497 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 18:17:25.498 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 18:17:25.498 [http-nio-8081-exec-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 18:17:25.498 [http-nio-8081-exec-2] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 18:17:25.498 [http-nio-8081-exec-2] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 18:17:26.418 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:17:27.554 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:17:27.554 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 18:17:29.889 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:17:29.925 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:17:29.926 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:17:29.926 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:17:29.927 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:17.393 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:content_id, rule:=, value:1992303842724585474
+2025-11-24 18:38:17.394 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_id, rule:=, value:1992302749781237762
+2025-11-24 18:38:17.395 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:20.980 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:20.996 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:38:20.996 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:38:20.997 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:20.997 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:21.913 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:content_id, rule:=, value:1992303842724585474
+2025-11-24 18:38:21.914 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_id, rule:=, value:1992302749781237762
+2025-11-24 18:38:21.914 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:25.612 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:25.624 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:38:25.624 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:38:25.624 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:38:25.624 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:41:15.420 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:41:15.462 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 18:41:15.462 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 18:41:15.462 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 18:41:15.462 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:36:18.737 [http-nio-8081-exec-8] INFO  org.jeecg.config.shiro.ShiroRealm:97 - ————————身份认证失败——————————IP地址:  0:0:0:0:0:0:0:1，URL:/jeecg-boot/study/cloudComputingCourseType/list
+2025-11-24 23:36:18.871 [http-nio-8081-exec-5] INFO  o.jeecg.modules.system.controller.LoginController:193 -  用户名:  teacher01,退出成功！ 
+2025-11-24 23:36:18.887 [http-nio-8081-exec-7] INFO  org.jeecg.config.shiro.ShiroRealm:97 - ————————身份认证失败——————————IP地址:  0:0:0:0:0:0:0:1，URL:/jeecg-boot/study/cloudComputingCourseType/list
+2025-11-24 23:36:18.910 [http-nio-8081-exec-2] INFO  org.jeecg.config.shiro.ShiroRealm:97 - ————————身份认证失败——————————IP地址:  0:0:0:0:0:0:0:1，URL:/jeecg-boot/study/cloudComputingCourseType/list
+2025-11-24 23:36:20.481 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:1
+2025-11-24 23:36:22.189 [http-nio-8081-exec-3] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = 9f584763f8b4c146d27a6af3a630a3a7，checkCode = rafL
+2025-11-24 23:36:42.465 [http-nio-8081-exec-8] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-11-24 23:36:43.237 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:2
+2025-11-24 23:36:43.362 [http-nio-8081-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:36:43.422 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 23:36:43.423 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 23:36:43.423 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:36:43.423 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:36:51.730 [http-nio-8081-exec-4] INFO  o.jeecg.modules.system.controller.LoginController:193 -  用户名:  student01,退出成功！ 
+2025-11-24 23:36:53.632 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:1
+2025-11-24 23:36:55.141 [http-nio-8081-exec-8] INFO  o.jeecg.modules.system.controller.LoginController:516 - 获取验证码，Redis key = fe590039a4c51727a06dfc918c375fef，checkCode = sCGu
+2025-11-24 23:36:59.682 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 23:36:59.892 [http-nio-8081-exec-5] ERROR o.jeecg.modules.system.controller.CommonController:253 - 预览文件失败java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2025-11-24 23:36:59.925 [http-nio-8081-exec-2] ERROR o.jeecg.modules.system.controller.CommonController:253 - 预览文件失败java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2025-11-24 23:36:59.926 [http-nio-8081-exec-2] ERROR o.jeecg.modules.system.controller.CommonController:268 - java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:353)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:783)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:252)
+	at org.apache.catalina.connector.CoyoteOutputStream.close(CoyoteOutputStream.java:157)
+	at org.jeecg.modules.system.controller.CommonController.view(CommonController.java:266)
+	at org.jeecg.modules.system.controller.CommonController$$FastClassBySpringCGLIB$$669ac3eb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at org.jeecg.common.aspect.DictAspect.doAround(DictAspect.java:62)
+	at jdk.internal.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.jeecg.modules.system.controller.CommonController$$EnhancerBySpringCGLIB$$19de9540.view(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor507.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.jeecg.modules.online.low.aspect.a.doFilterInternal(LowAppFilter.java:50)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:458)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:373)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:370)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1384)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:586)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:530)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:547)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:73)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:194)
+	at org.apache.coyote.Response.doWrite(Response.java:615)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:340)
+	... 111 common frames omitted
+2025-11-24 23:37:07.691 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 23:37:07.691 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:37:12.167 [http-nio-8081-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:37:12.179 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 23:37:12.179 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 23:37:12.180 [http-nio-8081-exec-1] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:37:12.180 [http-nio-8081-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:39:49.561 [http-nio-8081-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 23:39:49.563 [http-nio-8081-exec-4] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:49.567 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:49.568 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:49.569 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 23:39:49.573 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 23:39:49.576 [http-nio-8081-exec-4] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:49.579 [http-nio-8081-exec-4] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:39:50.396 [http-nio-8081-exec-8] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:50.396 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:50.396 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:50.396 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course_type,course_type_name,id"}
+2025-11-24 23:39:50.396 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : A704D4975E149E59322ADD2D37BC7B69
+2025-11-24 23:39:50.397 [http-nio-8081-exec-8] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course_type,course_type_name,id
+2025-11-24 23:39:50.398 [http-nio-8081-exec-8] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:39:50.399 [http-nio-8081-exec-7] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sys_user,realname,id
+2025-11-24 23:39:50.399 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: sys_user,realname,id
+2025-11-24 23:39:50.399 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: sys_user,realname,id
+2025-11-24 23:39:50.399 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"sys_user,realname,id"}
+2025-11-24 23:39:50.400 [http-nio-8081-exec-7] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : 77C52056EF6109F4874CBD8532C8F530
+2025-11-24 23:39:50.400 [http-nio-8081-exec-7] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : sys_user,realname,id
+2025-11-24 23:39:50.401 [http-nio-8081-exec-7] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:39:52.049 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 23:39:54.423 [http-nio-8081-exec-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 23:39:54.423 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 23:39:54.423 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 23:39:54.423 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 23:39:54.423 [http-nio-8081-exec-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 23:39:54.423 [http-nio-8081-exec-3] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 23:39:54.424 [http-nio-8081-exec-3] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:39:54.424 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 23:39:55.390 [http-nio-8081-exec-4] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 23:39:55.390 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 23:39:55.390 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 23:39:55.390 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 23:39:55.391 [http-nio-8081-exec-4] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 23:39:55.391 [http-nio-8081-exec-4] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 23:39:55.392 [http-nio-8081-exec-4] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:52:07.671 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2025-11-24 23:52:07.684 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2025-11-24 23:52:10.644 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 23:52:10.733 [http-nio-8081-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:52:10.840 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992550828610641922
+2025-11-24 23:52:10.840 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:648 - ---查询过滤器，Query规则---field:course_type_id, rule:=, value:1992301885842694146
+2025-11-24 23:52:10.841 [http-nio-8081-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:52:10.841 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:null,排序方式:null
+2025-11-24 23:52:11.684 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 23:52:11.770 [http-nio-8081-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 23:52:11.772 [http-nio-8081-exec-9] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 23:52:11.772 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 23:52:11.772 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 23:52:11.773 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 23:52:11.773 [http-nio-8081-exec-9] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 23:52:11.774 [http-nio-8081-exec-9] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 23:52:11.774 [http-nio-8081-exec-9] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:52:18.193 [http-nio-8081-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 23:52:18.194 [http-nio-8081-exec-8] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 23:52:18.194 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 23:52:18.194 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 23:52:18.194 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 23:52:18.195 [http-nio-8081-exec-8] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 23:52:18.195 [http-nio-8081-exec-8] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 23:52:18.195 [http-nio-8081-exec-8] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:52:19.101 [http-nio-8081-exec-1] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 23:52:19.101 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 23:52:19.102 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 23:52:19.102 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 23:52:19.102 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 23:52:19.102 [http-nio-8081-exec-1] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 23:52:19.103 [http-nio-8081-exec-1] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:52:43.434 [http-nio-8081-exec-1] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 23:52:43.434 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 23:52:43.435 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 23:52:43.435 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 23:52:43.435 [http-nio-8081-exec-1] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 23:52:43.435 [http-nio-8081-exec-1] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 23:52:43.436 [http-nio-8081-exec-1] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
+2025-11-24 23:53:43.825 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2025-11-24 23:53:47.052 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2025-11-24 23:53:47.209 [http-nio-8081-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:241 - 排序规则>>列:createTime,排序方式:desc
+2025-11-24 23:53:47.210 [http-nio-8081-exec-6] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:35 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/cloud_computing_course,course_name,id
+2025-11-24 23:53:47.211 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:44 -  pathVariable: cloud_computing_course,course_name,id
+2025-11-24 23:53:47.212 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.HttpUtils:46 -  pathVariable decode: cloud_computing_course,course_name,id
+2025-11-24 23:53:47.213 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {"x-path-variable":"cloud_computing_course,course_name,id"}
+2025-11-24 23:53:47.213 [http-nio-8081-exec-6] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : CFA3AB85449BF5F80FE447AE79AE9AD7
+2025-11-24 23:53:47.216 [http-nio-8081-exec-6] INFO  o.j.modules.system.controller.SysDictController:161 -  dictCode : cloud_computing_course,course_name,id
+2025-11-24 23:53:47.217 [http-nio-8081-exec-6] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:55 - --获取sql信息--
